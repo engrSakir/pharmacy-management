@@ -44,13 +44,13 @@ class Lic
     private $update_day;
     private $message;
     private $purchase_key;
-    private $product_key = '{product_key}';
+    private $product_key = '19756926';
     private $licence     = 'standard';
     private $log_path    = null;
     private $check_days  = array(9, 10, 11);
     private $api_domain  = 'secure.bdtask.com';
     private $api_url     = 'http://secure.bdtask.com/beta/class.licence.php';
-    private $whitelist   = '{license_key}';
+    private $whitelist   = '';
 
     public function __construct()
     {
@@ -225,8 +225,8 @@ class Lic
                 $whitefile = file_get_contents($path);
                 $str = implode('-', $whitelist);
                 //set license key configuration
-                $new  = str_replace("{license_key}",@$str, $whitefile);
-                $new  = str_replace("{product_key}",@$product_key, $new);
+                $new  = str_replace("",@$str, $whitefile);
+                $new  = str_replace("19756926",@$product_key, $new);
 
                 // Write the new database.php file
                 $handle = fopen($path,'w+');
