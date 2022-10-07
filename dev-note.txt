@@ -1,0 +1,23 @@
+Login Details :
+Admin User : test@test.com Password : 123456
+
+User : user@gmail.com Password : 123456
+
+Main Features :
+Customer Management Module
+Supply & Purchase Module
+One Click Installation
+Inventory Module
+Easy Invoicing System
+Financial Module
+Product Management Module
+Fresh and Clean Code
+Daily, Monthly, Yearly Sales, Profit and Expense Report
+Due Payment Management
+Choose Any Currency
+Medicine, Drugs, Customers, Employees, Clients, supplier and Users management
+POS (Point of Sale) management
+Search Medicine, Customer, Purchase, Invoices by Its First Letter
+Sales Graph
+Print Invoices
+Generate Report By Date Range and Many More.
